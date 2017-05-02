@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ต้นไม้ที่น่าสนใจในม.อ.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+
+<body class="w3-sand">
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+	<div class="w3-bar w3-green w3-wide w3-padding w3-card-4">
+		<a href="#home" class="w3-bar-item w3-button"><b>Home Pages</b></a>
+		<div class="w3-right w3-hide-small">
+		  <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+		  <a href="about.html" target="_blank" class="w3-bar-item w3-button">About</a>
+		</div>
+	</div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1000px;" id="home">
+	<div class="w3-display-middle w3-margin-top w3-center">
+		<h1 class="w3-text-white"> <span class="w3-padding w3-blue w3-opacity-min"><b>ต้นไม้ที่น่าสนใจในม.อ.</b></span></h1>
+	</div>
+	<br>
+	<br>
+	<div class="w3-content w3-section" style="max-width:1500px">
+		<img class="mySlides w3-animate-fading" src="tree_1chaba.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="tree_2makdang.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="tree_3nam.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="tree_4rera.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="tree_5bisilver.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="tree_6A sokindia2.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="tree_7MhakGreen1.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="tree_8Mok1.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="tree_9pradu2.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="tree_10Sritrang1.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="tree_11teenpet.jpg" style="width:100%">
+		<img class="mySlides w3-animate-fading" src="tree_12kem.jpg" style="width:100%">
+	</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+</script>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+	<!-- Project Section -->
+	<div class="w3-container w3-padding-32" id="projects">
+		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-center"><b>Projects</b></h3>
+	</div>
+
+	<div class="w3-row-padding">
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<div class="w3-display-bottomright w3-red w3-padding">ต้นชบา (Hibiscus)</div>
+				<a href="chaba.html" target="_blank">
+				<img src="tree_1chaba.jpg" alt="Hibiscus" class="w3-panel w3-border w3-hover-red w3-padding" style="width:100%">
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<div class="w3-display-bottomright w3-red w3-padding">ต้นหมากแดง (Sealing wax palm)</div>
+				<a href="makdang.html" target="_blank">
+				<img src="tree_2makdang.jpg" alt="Sealing wax palm" class="w3-panel w3-border w3-hover-red w3-padding" style="width:100%">
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<div class="w3-display-bottomright w3-red w3-padding">ไทรใบกลม (Ficusannulata Blume)</div>
+				<a href="nam.html" target="_blank">
+				<img src="tree_3nam.jpg" alt="Ficusannulata Blume" class="w3-panel w3-border w3-hover-red w3-padding" style="width:100%">
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<div class="w3-display-bottomright w3-red w3-padding">ต้นลีลาวดี (Frangipani)</div>
+				<a href="rera.html" target="_blank">
+				<img src="tree_4rera.jpg" alt="Frangipani" class="w3-panel w3-border w3-hover-red w3-padding" style="width:100%">
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<div class="w3-display-bottomright w3-red w3-padding">ต้นใบเงิน (Caricature plant)</div>
+				<a href="bisilver.html" target="_blank">
+				<img src="tree_5bisilver.jpg" alt="Caricature plant" class="w3-panel w3-border w3-hover-red w3-padding" style="width:100%">
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<div class="w3-display-bottomright w3-red w3-padding">ต้นอโศกอินเดีย (Cemetery Tree)</div>
+				<a href="pro6.html" target="_blank">
+				<img src="tree_6A sokindia2.jpg" alt="Cemetery Tree" class="w3-panel w3-border w3-hover-red w3-padding" style="width:100%">
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<div class="w3-display-bottomright w3-red w3-padding">ต้นหมากเขียว (Macarthurs Palm)</div>
+				<a href="pro7.html" target="_blank">			
+				<img src="tree_7MhakGreen1.jpg" alt="Macarthurs Palm" class="w3-panel w3-border w3-hover-red w3-padding" style="width:100%">
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<div class="w3-display-bottomright w3-red w3-padding">ต้นโมก (Wrightia religiosa)</div>
+				<a href="pro8.html" target="_blank">			
+				<img src="tree_8Mok1.jpg" alt="Wrightia religiosa" class="w3-panel w3-border w3-hover-red w3-padding" style="width:100%">
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<div class="w3-display-bottomright w3-red w3-padding">ต้นประดู่ (Papilionaceae)</div>
+				<a href="pro9.html" target="_blank">			
+				<img src="tree_9pradu2.jpg" alt="Papilionaceae" class="w3-panel w3-border w3-hover-red w3-padding" style="width:100%">
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<div class="w3-display-bottomright w3-red w3-padding">ต้นศรีตรัง (Jacaranda)</div>
+				<a href="pro10.html" target="_blank">			
+				<img src="tree_10Sritrang1.jpg" alt="Jacaranda" class="w3-panel w3-border w3-hover-red w3-padding" style="width:100%">
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<div class="w3-display-bottomright w3-red w3-padding">ต้นตีนเป็ด (Shaitan wood)</div>
+				<a href="pro11.html" target="_blank">			
+				<img src="tree_11teenpet.jpg" alt="Shaitan wood" class="w3-panel w3-border w3-hover-red w3-padding" style="width:100%">
+			</div>
+		</div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-display-container">
+				<div class="w3-display-bottomright w3-red w3-padding">ต้นเข็ม (West indian jasmine)</div>
+				<a href="kem.html" target="_blank">			
+				<img src="tree_12kem.jpg" alt="West indian jasmine" class="w3-panel w3-border w3-hover-red w3-padding" style="width:100%">
+			</div>
+		</div>
+	</div>
+
+<!-- End page content -->
+
+</body>
+</html>
